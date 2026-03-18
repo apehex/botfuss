@@ -1,6 +1,6 @@
 # Botfuss
 
-Individual authors [fail to finish series][wiki-kingkiller], even with decades of time.
+Individual authors [fail to finish series][wikipedia-kingkiller], even with decades of time.
 Instead of just waiting, we can take the matter into our hands!
 
 This project is an attempt at collaborative writing, to create alternative fictions in the world of the Kingkiller Chronicle.
@@ -80,10 +80,15 @@ Letting the characters' egos speak, not the authors'.
 
 ## Licensing
 
-Licensed under bla.
+Licensed under the [AGPLv3][github-license].
 
-Derived work, falls under bla.
+Includes data coming from the [Kingkiller fandom wiki][fandom-kingkiller], licensed under the [CC-BY-SA][fandom-license].
 
-Wiki
+This project is starting as a [derivative work][wikipedia-derivative], protected by the Berne Convention for the Protection of Literary and Artistic Works.
 
-[wiki-kingkiller]: https://en.wikipedia.org/wiki/The_Kingkiller_Chronicle#Writing_and_publishing_history
+[github-license]: LICENSE.md
+
+[fandom-kingkiller]: https://kingkiller.fandom.com
+[fandom-license]: https://kingkiller.fandom.com/wiki/Kingkiller_Chronicle_Wiki:Copyrights
+[wikipedia-derivative]: https://en.wikipedia.org/wiki/Derivative_work
+[wikipedia-kingkiller]: https://en.wikipedia.org/wiki/The_Kingkiller_Chronicle#Writing_and_publishing_history
