@@ -1,55 +1,42 @@
-```
-|-- .github
-|   |-- LICENSE.md: AGPL-v3
-|   `-- README.md: overview of the project
-|-- docs
-|   |-- agents.md: guidelines for the LLM agents
-|   |-- context.md: overall context, to be included in the primer
-|   |-- decisions.md: record of important design choices
-|   |-- ideas.md: future directions
-|   |-- index.md: structure of the repository
-|   |-- invariants.md: hard constraints that should not be violated
-|   |-- primer.jj: conversation primer for the agents, written in jinja
-|   `-- references.md: external references (wikis, books, methodology)
-|-- drafts/
-|   |-- assets/
-|   |   |-- characters/
-|   |   |   |-- kvothe/
-|   |   |   |   |-- 0.birth
-|   |   |   |   |-- 1.childhood
-|   |   |   |   |-- 2.escape
-|   |   |   `-- ...
-|   |   |-- events/
-|   |   |-- ...
-|   |   `-- locations/
-|   |-- classes/
-|   |   |-- animals
-|   |   |-- ...
-|   |   |-- magic
-|   |   `-- etc
-|   `-- stories/
-|   |   |-- there-is-no-door/
-|   |   |-- ...
-|   |   `-- ...
-|-- logs/
-|   |-- ...
-|   `-- 2026-03-17/
-`-- skills
-    |-- metas: update the documentation and macroscopic rules
-    |-- assets: structured sheets for the elements of the world, like coding classes
-    |   |-- beings: animals, fairies, plants, spirits, etc
-    |   |-- characters: instances of the beings (particular humans, spirits, etc)
-    |   |-- items: books, weapons, tools, etc
-    |   |-- locations: nature, cities, etc
-    |   |-- lore: songs, stories, languages, etc
-    |   `-- magic: specifications for the magical powers
-    |-- stories
-    |   |-- scoring/
-    |   |   |-- ...
-    |   `-- selection/
-    |   |   |-- ...
-    `-- writing:
-        |-- characters:
-        |-- dialogue:
-        `-- outline:
-```
+# Index
+
+Overview of the repository structure.
+
+## Docs
+
+| Path                      | Purpose                               |
+| ------------------------- | ------------------------------------- |
+| `-- docs/`                | Collaboration-focused project docs    |
+| `   -- agents.md`         | Guidelines for LLM agents             |
+| `   -- context.md`        | Overview of the project               |
+| `   -- decisions.md`      | Record of important design choices    |
+| `   -- index.md`          | Structure of the repository           |
+| `   -- invariants.md`     | Hard constraints                      |
+| `   -- references.md`     | External references                   |
+| `   -- roadmap.md`        | Planning of the project               |
+
+## Drafts
+
+| Path                      | Purpose                               |
+| ------------------------- | ------------------------------------- |
+| `-- drafts/`              | Source of truth for the world         |
+| `   -- assets/`           | Characters, locations, items, etc     |
+| `   -- events/`           | Key events in the world               |
+| `   -- classes/`          | Schemas defining asset structure      |
+| `   -- stories/`          | Narrative drafts and branches         |
+
+## Logs
+
+| Path                      | Purpose                               |
+| ------------------------- | ------------------------------------- |
+| `-- logs/`                | Record of runs, experiments, issues   |
+
+## Skills
+
+| Path                      | Purpose                               |
+| ------------------------- | ------------------------------------- |
+| `-- skills/`              | Reusable logic for agents             |
+| `   -- metas/`            | Project-level updates and rules       |
+| `   -- assets/`           | Asset schemas and validation          |
+| `   -- stories/`          | Selection and scoring logic           |
+| `   -- writing/`          | Narrative generation tools            |
